@@ -60,6 +60,9 @@ str(train.df)
 
 sapply(lapply(train.df, unique), length)
 
+# Now let's store output to file
+sink(file = "data_modeling/log_reg_output.txt")
+
 # Run the model
 logit.reg <- glm(popularity ~ ., data = train.df, family = "binomial")
 summary(logit.reg)
@@ -68,15 +71,27 @@ summary(logit.reg)
 logit.reg.pred <- predict(logit.reg, valid.df, type = "response")
 
 # For now, set cutoff to 0.5
+cat('Below is the starting cutoff value')
+0.5
 pred <- ifelse(logit.reg.pred > 0.5, 1, 0)
 
 # Lets see confusion matrix with these values
+cat('Confusion Matrix with cutoff value of 0.5')
 confusionMatrix(factor(pred), factor(valid.df$popularity), positive = "1")
 
 # Now, let's find the best cutoff
 r <- roc(valid.df$popularity, logit.reg.pred)
-plot.roc(r)
+# plot.roc(r)
 
+cat('\nBelow is the best cutoff value')
 coords(r, x = "best")
 
+cat('\nBelow is different cutoff values')
 coords(r, x = c(0.1, 0.3, 0.5, 0.7, 0.9))
+
+best.cutoff <- coords(r, x = "best")$threshold
+pred <- ifelse(logit.reg.pred > best.cutoff[1], 1, 0)
+cat('\nNow the confusion matrix for the best cutoff')
+confusionMatrix(factor(pred), factor(valid.df$popularity), positive = "1")
+
+sink()
