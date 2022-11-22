@@ -19,6 +19,7 @@ train.df <- selected.df[train.index,]
 valid.df <- selected.df[-train.index, ]
 
 # Default classification tree,
+names(class.df)
 names(train.df)
 str(train.df)
 

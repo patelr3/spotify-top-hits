@@ -35,13 +35,16 @@ songs.df <- songs.df[, -which(names(songs.df) == 'genre')]
 
 str(songs.df)
 
+# Now let's store output to file
+sink(file = "data_modeling/log_reg_output.txt")
+
 # Define what will be class 1
 # Let's assume every value under 50 is not very popular and
 # every value over 50 is popular
 summary(songs.df$popularity)
-songs.df$popularity <- ifelse(songs.df$popularity < 50, 0, 1)
+songs.df$popularity <- ifelse(songs.df$popularity < 60, 0, 1)
 
-str(songs.df)
+# str(songs.df)
 
 # Now let's partition the dataset
 # Have to be careful with seed as some seeds will result in
@@ -56,12 +59,9 @@ train.index <- sample(1:nrow(selected.df), 0.6*nrow(selected.df))
 train.df <- selected.df[train.index, ]
 valid.df <- selected.df[-train.index, ]
 
-str(train.df)
+# str(train.df)
 
-sapply(lapply(train.df, unique), length)
-
-# Now let's store output to file
-sink(file = "data_modeling/log_reg_output.txt")
+# sapply(lapply(train.df, unique), length)
 
 # Run the model
 logit.reg <- glm(popularity ~ ., data = train.df, family = "binomial")
