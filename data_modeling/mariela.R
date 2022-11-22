@@ -7,7 +7,8 @@ library(caret)
 library(ggplot2)
 
 class.df$popularity <- as.numeric(class.df$popularity)
-class.df$popularity <- ifelse(class.df$popularity < 50, 0, 1)
+summary(class.df$popularity)
+class.df$popularity <- ifelse(class.df$popularity < 60, 0, 1)
 
 
 set.seed(11)
@@ -20,7 +21,7 @@ valid.df <- selected.df[-train.index, ]
 # Default classification tree,
 names(train.df)
 str(train.df)
-default.ct <- rpart(popularity ~ ., data = train.df, method = 'class', control = rpart.control(maxdepth =  3, minbucket =  30) )
+default.ct <- rpart(popularity ~ ., data = train.df, method = 'class' )
 
 rpart.plot( default.ct, extra = 1)
 
