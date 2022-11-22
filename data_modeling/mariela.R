@@ -27,6 +27,9 @@ sink(file = "data_modeling/classification_tree_output.txt")
 
 default.ct <- rpart(popularity ~ ., data = train.df, method = 'class' )
 
+default.ct.point.pred <- predict(default.ct, valid.df, type = 'class')
+confusionMatrix(default.ct.point.pred, factor(valid.df$popularity), positive = '1')
+
 # rpart.plot( default.ct, extra = 1)
 
 default.ct$variable.importance

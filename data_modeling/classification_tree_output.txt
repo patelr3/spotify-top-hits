@@ -1,3 +1,30 @@
+Confusion Matrix and Statistics
+
+          Reference
+Prediction   0   1
+         0  23  25
+         1 232 488
+                                          
+               Accuracy : 0.6654          
+                 95% CI : (0.6308, 0.6987)
+    No Information Rate : 0.668           
+    P-Value [Acc > NIR] : 0.5776          
+                                          
+                  Kappa : 0.0521          
+                                          
+ Mcnemar's Test P-Value : <2e-16          
+                                          
+            Sensitivity : 0.9513          
+            Specificity : 0.0902          
+         Pos Pred Value : 0.6778          
+         Neg Pred Value : 0.4792          
+             Prevalence : 0.6680          
+         Detection Rate : 0.6354          
+   Detection Prevalence : 0.9375          
+      Balanced Accuracy : 0.5207          
+                                          
+       'Positive' Class : 1               
+                                          
 dance_electronic instrumentalness     acousticness      duration_ms 
        8.9560857        7.7682352        0.9565530        0.6763058 
         loudness           energy         liveness 
