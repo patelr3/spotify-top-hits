@@ -1,0 +1,150 @@
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00   56.00   65.00   59.63   73.00   89.00 
+
+Call:
+glm(formula = popularity ~ ., family = "binomial", data = train.df)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-2.5666   0.3095   0.4748   0.6129   1.5249  
+
+Coefficients:
+                           Estimate Std. Error z value Pr(>|z|)  
+(Intercept)              -1.752e+01  2.400e+03  -0.007   0.9942  
+duration_ms               4.792e-06  2.610e-06   1.836   0.0663 .
+explicitTrue             -1.299e-01  2.447e-01  -0.531   0.5954  
+year1999                  3.279e+01  2.445e+03   0.013   0.9893  
+year2000                  1.855e+01  2.400e+03   0.008   0.9938  
+year2001                  1.815e+01  2.400e+03   0.008   0.9940  
+year2002                  1.800e+01  2.400e+03   0.008   0.9940  
+year2003                  1.816e+01  2.400e+03   0.008   0.9940  
+year2004                  1.813e+01  2.400e+03   0.008   0.9940  
+year2005                  1.812e+01  2.400e+03   0.008   0.9940  
+year2006                  1.800e+01  2.400e+03   0.008   0.9940  
+year2007                  1.799e+01  2.400e+03   0.007   0.9940  
+year2008                  1.899e+01  2.400e+03   0.008   0.9937  
+year2009                  1.937e+01  2.400e+03   0.008   0.9936  
+year2010                  1.790e+01  2.400e+03   0.007   0.9940  
+year2011                  1.787e+01  2.400e+03   0.007   0.9941  
+year2012                  1.852e+01  2.400e+03   0.008   0.9938  
+year2013                  1.818e+01  2.400e+03   0.008   0.9940  
+year2014                  1.826e+01  2.400e+03   0.008   0.9939  
+year2015                  1.754e+01  2.400e+03   0.007   0.9942  
+year2016                  1.791e+01  2.400e+03   0.007   0.9940  
+year2017                  1.822e+01  2.400e+03   0.008   0.9939  
+year2018                  1.973e+01  2.400e+03   0.008   0.9934  
+year2019                  1.813e+01  2.400e+03   0.008   0.9940  
+year2020                  1.597e+01  2.400e+03   0.007   0.9947  
+danceability             -5.780e-01  8.134e-01  -0.711   0.4774  
+energy                    1.354e-01  9.024e-01   0.150   0.8807  
+keyC#                     6.669e-01  3.716e-01   1.795   0.0727 .
+keyD                     -2.963e-01  3.608e-01  -0.821   0.4116  
+keyD#                     9.120e-01  6.696e-01   1.362   0.1732  
+keyE                      3.456e-01  4.465e-01   0.774   0.4390  
+keyF                      2.129e-01  3.837e-01   0.555   0.5790  
+keyF#                     6.424e-01  4.193e-01   1.532   0.1255  
+keyG                      1.769e-01  3.669e-01   0.482   0.6297  
+keyG#                     7.677e-01  4.224e-01   1.818   0.0691 .
+keyA                      2.105e-01  3.814e-01   0.552   0.5810  
+keyA#                     2.793e-01  4.576e-01   0.610   0.5416  
+keyB                      3.550e-01  3.768e-01   0.942   0.3461  
+loudness                  1.979e-02  5.898e-02   0.336   0.7372  
+modeMajor                -2.653e-01  1.850e-01  -1.434   0.1517  
+speechiness              -1.115e+00  1.076e+00  -1.036   0.3003  
+acousticness             -1.876e-01  5.572e-01  -0.337   0.7363  
+instrumentalness         -1.836e+00  8.928e-01  -2.057   0.0397 *
+liveness                 -2.543e-01  6.339e-01  -0.401   0.6883  
+valence                   3.645e-01  5.042e-01   0.723   0.4697  
+tempo                     1.829e-03  3.422e-03   0.535   0.5929  
+is_jazzTrue               1.265e+00  1.993e+03   0.001   0.9995  
+is_countryTrue           -2.831e-01  8.526e-01  -0.332   0.7398  
+is_rockTrue               1.400e-02  3.257e-01   0.043   0.9657  
+is_popTrue               -8.188e-02  2.505e-01  -0.327   0.7438  
+is_hip_hopTrue            5.485e-01  2.364e-01   2.320   0.0204 *
+is_folk_acousticTrue      3.622e-01  1.091e+00   0.332   0.7398  
+is_r.bTrue               -1.366e-01  2.403e-01  -0.568   0.5698  
+is_latinTrue             -9.079e-01  4.638e-01  -1.957   0.0503 .
+is_dance_electronicTrue  -4.592e-01  2.325e-01  -1.975   0.0483 *
+is_easy_listeningTrue     1.431e+01  1.070e+03   0.013   0.9893  
+is_metalTrue              3.304e-01  6.198e-01   0.533   0.5940  
+is_classicalTrue          1.553e+01  2.400e+03   0.006   0.9948  
+is_bluesTrue              1.452e+01  2.400e+03   0.006   0.9952  
+is_world_traditionalTrue -8.046e-02  1.428e+00  -0.056   0.9551  
+has_featureTrue           2.275e-01  2.670e-01   0.852   0.3941  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 992.35  on 1163  degrees of freedom
+Residual deviance: 903.57  on 1103  degrees of freedom
+AIC: 1025.6
+
+Number of Fisher Scoring iterations: 15
+
+Below is the starting cutoff value[1] 0.5
+Confusion Matrix with cutoff value of 0.5Confusion Matrix and Statistics
+
+          Reference
+Prediction   0   1
+         0   3   5
+         1 136 633
+                                         
+               Accuracy : 0.8185         
+                 95% CI : (0.7896, 0.845)
+    No Information Rate : 0.8211         
+    P-Value [Acc > NIR] : 0.5962         
+                                         
+                  Kappa : 0.0218         
+                                         
+ Mcnemar's Test P-Value : <2e-16         
+                                         
+            Sensitivity : 0.99216        
+            Specificity : 0.02158        
+         Pos Pred Value : 0.82315        
+         Neg Pred Value : 0.37500        
+             Prevalence : 0.82111        
+         Detection Rate : 0.81467        
+   Detection Prevalence : 0.98970        
+      Balanced Accuracy : 0.50687        
+                                         
+       'Positive' Class : 1              
+                                         
+
+Below is the best cutoff value  threshold specificity sensitivity
+1 0.8663572   0.6618705   0.5031348
+
+Below is different cutoff values  threshold specificity sensitivity
+1       0.1  0.00000000   1.0000000
+2       0.3  0.00000000   0.9984326
+3       0.5  0.02158273   0.9921630
+4       0.7  0.15107914   0.9294671
+5       0.9  0.79136691   0.3228840
+
+Now the confusion matrix for the best cutoffConfusion Matrix and Statistics
+
+          Reference
+Prediction   0   1
+         0  92 317
+         1  47 321
+                                          
+               Accuracy : 0.5315          
+                 95% CI : (0.4957, 0.5671)
+    No Information Rate : 0.8211          
+    P-Value [Acc > NIR] : 1               
+                                          
+                  Kappa : 0.0938          
+                                          
+ Mcnemar's Test P-Value : <2e-16          
+                                          
+            Sensitivity : 0.5031          
+            Specificity : 0.6619          
+         Pos Pred Value : 0.8723          
+         Neg Pred Value : 0.2249          
+             Prevalence : 0.8211          
+         Detection Rate : 0.4131          
+   Detection Prevalence : 0.4736          
+      Balanced Accuracy : 0.5825          
+                                          
+       'Positive' Class : 1               
+                                          
