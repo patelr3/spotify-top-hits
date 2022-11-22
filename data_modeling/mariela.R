@@ -21,8 +21,14 @@ valid.df <- selected.df[-train.index, ]
 # Default classification tree,
 names(train.df)
 str(train.df)
+
+# Now let's store output to file
+sink(file = "data_modeling/classification_tree_output.txt")
+
 default.ct <- rpart(popularity ~ ., data = train.df, method = 'class' )
 
-rpart.plot( default.ct, extra = 1)
+# rpart.plot( default.ct, extra = 1)
 
 default.ct$variable.importance
+
+sink()
