@@ -1,0 +1,1327 @@
+Showing linear regression model summary:
+
+Call:
+lm(formula = popularity ~ ., data = train.df)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-61.601  -2.174   0.000   3.874  51.297 
+
+Coefficients: (15 not defined because of singularities)
+                                                    Estimate   Std. Error
+(Intercept)                                      39.46444066  26.49082459
+artist112                                        -1.60683460  21.78539214
+artist2 Chainz                                   20.21181581  22.61988665
+artist21 Savage                                  -4.09099777  22.56600789
+artist2Pac                                        4.84508118  17.62557819
+artist3 Doors Down                               -4.23682906  15.69087277
+artist3OH!3                                      -7.70660268  15.83262245
+artist5 Seconds of Summer                       -22.80930531  17.93439963
+artist50 Cent                                    14.39940406  14.30103759
+artistA Boogie Wit da Hoodie                     -1.31859535  18.32264526
+artistA.R. Rahman                                 0.09448875  21.93484851
+artistA$AP Ferg                                  27.23583995  22.59302056
+artistAaliyah                                   -23.82643857  16.39881037
+artistAdam Lambert                               -6.31044059  17.64050360
+artistAdele                                     -44.58824780  14.52316172
+artistAfroman                                    17.71256922  22.48760647
+artistAgnes                                       5.67972760  22.03989383
+artistAkon                                      -21.51598077  15.32752836
+artistAlec Benjamin                              -1.33550292  22.41943299
+artistAlesha Dixon                              -13.84390645  22.25411427
+artistAlessia Cara                              -49.88325322  21.96300160
+artistAlesso                                    -54.33357458  22.16615353
+artistAlex Clare                                 -4.22716395  22.01672533
+artistAlex Gaudino                               22.57213745  22.14833238
+artistAlexandra Burke                             5.64138688  22.50693541
+artistAlexandra Stan                            -62.83941589  21.91339934
+artistAlicia Keys                                -0.74316124  15.19161314
+artistAll Saints                                  4.55197163  21.65849905
+artistAll Time Low                               29.44571388  22.06031894
+artistAloe Blacc                                -68.70073096  22.12701791
+artistAlok                                      -11.98443822  22.43478787
+artistAmerie                                     -9.56246744  22.13683145
+artistAmy Winehouse                              19.37846158  18.49730733
+artistAnastacia                                  -4.81355882  16.48084852
+artistAngie Martinez                            -26.38111212  22.63740852
+artistAnne-Marie                                  1.06121463  17.90437376
+artistArctic Monkeys                             24.95668142  14.95718172
+artistAriana Grande                             -12.23565104  13.28525813
+artistAsaf Avidan & the Mojos                   -72.06263106  22.43561538
+artistAshanti                                    -4.45891063  15.88900107
+artistAsher Roth                                  0.10768989  22.46323386
+artistAshley O                                  -10.15411881  22.69884000
+artistAstrid S                                  -62.23890219  22.17382419
+artistAtomic Kitten                               2.04132287  21.61249494
+artistAudioslave                                  6.87652792  22.24383344
+artistAvant                                      -9.23459582  17.21503649
+artistAvicii                                      6.23191947  14.14936153
+artistAvril Lavigne                              14.74794402  13.89118628
+artistAzealia Banks                             -61.86824092  22.47659992
+artistB Young                                   -22.77494520  22.56657966
+artistB.o.B                                       8.28942815  16.23108626
+artistB2K                                       -12.10205912  22.26710237
+artistBaauer                                     -0.18405931  21.91433854
+artistBaby Bash                                 -56.12424953  22.22937407
+artistBackstreet Boys                            12.67408123  17.27021107
+artistBad Bunny                                  -9.02660486  22.53655534
+artistBad Meets Evil                             10.07242618  22.48934917
+artistBaha Men                                    7.29864868  21.27949263
+artistBasement Jaxx                             -53.87336742  17.49770472
+artistBastille                                   12.09743025  17.80989222
+artistBazzi                                       1.60561975  22.57108612
+artistBecky G                                   -14.26762622  22.33096832
+artistBenny Benassi                              15.76422745  23.43514393
+artistbenny blanco                               -3.35298657  22.74685687
+artistBeyoncé                                     5.52054824  13.47795853
+artistBig Brovaz                                -12.57956279  21.88209307
+artistBig Sean                                   16.59283404  22.44330257
+artistBillie Eilish                              21.80902291  17.88107672
+artistBingo Players                             -55.96390515  22.20824085
+artistBirdy                                      -8.20958976  22.17773919
+artistBlack Eyed Peas                            -1.39235062  13.50111478
+artistblackbear                                 -49.28112069  22.51997297
+artistBLACKPINK                                 -65.32602457  22.75548392
+artistBlake Shelton                              -1.25265337  22.10033559
+artistBlazin' Squad                             -22.63515168  22.23518638
+artistblink-182                                  12.69640099  23.00322290
+artistBlu Cantrell                               10.90901834  21.79161109
+artistBlue                                       -2.01247985  14.65290887
+artistBlueface                                  -78.96632807  23.02904935
+artistBob Sinclar                               -12.01890521  21.81242193
+artistBodyrockers                                -4.55230869  21.87697750
+artistBon Jovi                                   18.47657724  21.21453262
+artistBone Thugs-N-Harmony                        9.10404205  22.55276123
+artistBow Wow                                    -6.17636908  15.00091134
+artistBoys Like Girls                             6.11265852  17.52757444
+artistBrandy                                    -18.19026699  22.10579435
+artistBrian McFadden                            -16.15052121  22.11580514
+artistBritney Spears                              1.43151213  12.54810524
+artistBruno Mars                                 18.29098788  14.11031831
+artistBryson Tiller                              23.29894971  18.25276726
+artistBTS                                       -40.88587072  22.52851031
+artistBurak Yeter                                15.60717068  22.51261729
+artistBusta Rhymes                                0.44744181  22.12811419
+artistCalvin Harris                              11.11411418  13.84542984
+artistCam’ron                                     6.29476492  22.33778458
+artistCamila Cabello                            -26.06554599  16.11064224
+artistCamille Jones                             -36.32913353  22.32326681
+artistCapital Cities                            -55.87970451  21.84487181
+artistCardi B                                    -7.94267853  22.80966440
+artistCarrie Underwood                            8.65543009  17.54277202
+artistCascada                                    -2.62875611  21.96413088
+artistCéline Dion                                 1.42604949  21.89396793
+artistChamillionaire                              4.46541062  22.11098753
+artistCharlene Soraia                             1.29417731  22.61925876
+artistCharli Baltimore                          -17.40210766  22.99598906
+artistCharlie Puth                              -15.31972208  14.71433456
+artistChase & Status                              4.24004129  21.89171827
+artistCheat Codes                               -22.83455357  17.72058328
+artistCheryl                                      3.98703292  22.12430085
+artistChildish Gambino                          -57.18897387  22.47196887
+artistChingy                                      9.66358726  22.54254963
+artistChip                                       -7.36279653  22.28324031
+artistChris Brown                                 4.18321437  12.85509952
+artistChristina Aguilera                          6.81246055  15.80947359
+artistChristina Perri                             5.06150736  16.28294216
+artistCiara                                       2.82982514  14.42532966
+artistClean Bandit                              -28.56766293  17.81203516
+artistCobra Starship                              3.92138289  17.59699312
+artistColby O'Donis                              -5.84335290  22.02952586
+artistColdplay                                   13.85804143  13.23323758
+artistCounting Crows                             -8.41003389  21.96367569
+artistCraig David                                -5.70884999  15.61084580
+artistCrazy Town                                  6.74577420  23.04019457
+artistCreed                                       0.99976705  16.71008919
+artistD12                                         8.11085804  18.31080864
+artistD4L                                         3.00711204  22.59384522
+artistDaddy Yankee                              -23.38612079  17.63572874
+artistDaft Punk                                  14.01129677  16.02764774
+artistDaniel Bedingfield                        -15.07846924  17.86287366
+artistDaniel Powter                              10.34072774  22.27144522
+artistDanity Kane                               -13.21660176  21.92933188
+artistDarude                                     81.55205632  54.28968262
+artistDave                                        9.26009180  22.83500153
+artistDavid Archuleta                             2.07424285  21.69090930
+artistDavid Banner                               -4.14371596  22.80668781
+artistDavid Guetta                                7.02027897  13.61227630
+artistDaya                                      -51.00208969  22.41476919
+artistDB Boulevard                              -73.96061173  22.65646817
+artistDefault                                    -9.19020896  21.80043385
+artistDemi Lovato                                14.25134693  15.94506718
+artistDennis Lloyd                               21.72590585  22.68243245
+artistDeorro                                      6.44999204  22.63131414
+artistDesiigner                                  11.58685488  18.38865208
+artistDestiny's Child                             2.65724580  14.25623514
+artistDEV                                       -16.24940887  22.17242498
+artistDiddy                                      -1.85237794  16.27238252
+artistDido                                      -10.31677458  22.12879757
+artistDisclosure                                  3.90783066  17.80478432
+artistDisturbing Tha Peace                       -3.82887708  22.46567536
+artistDizzee Rascal                               2.12041335  21.80212541
+artistDJ Casper                                 -12.76257463  22.10124481
+artistDJ Fresh                                   -4.44468582  22.36830040
+artistDJ Khaled                                   1.18351766  17.97124047
+artistDJ Ötzi                                    -5.88315063  22.11302033
+artistDJ Pied Piper & The Masters Of Ceremonies   1.06964829  21.78861801
+artistDJ Sammy                                   -0.81702780  22.12372611
+artistDJ Snake                                   12.77809008  18.15312297
+artistDMX                                         9.49189899  23.57728738
+artistDNCE                                       22.18995544  22.35617518
+artistDoja Cat                                  -13.49836504  22.58516543
+artistDonell Jones                              -12.31173847  19.22952104
+artistDr. Dre                                    13.63920258  17.31001002
+artistDrake                                       1.25826986  12.91497732
+artistDua Lipa                                   12.61556829  15.39764485
+artistDuck Sauce                                 -3.37502469  24.13708218
+artistEchosmith                                   9.86723809  21.97367889
+artistEd Sheeran                                  5.16769174  15.47467817
+artistEdward Maya                                 0.93640856  21.91719325
+artistElla Henderson                              5.52137653  22.19819040
+artistElla Mai                                   -7.58949766  22.36751340
+artistEllie Goulding                              3.15965218  17.58068835
+artistEminem                                     15.98772521  13.09689673
+artistEmma Bunton                                -2.50529468  21.66961414
+artistEnrique Iglesias                           -4.24330312  13.92893325
+artistEric Prydz                                -19.28778375  17.67361065
+artistErick Sermon                               -4.22947950  22.05072926
+artistErykah Badu                                -8.11869277  21.79755398
+artistEstelle                                    19.06230779  22.38453540
+artistEvanescence                                19.75371120  16.15204216
+artistEve                                         2.24948047  17.53036450
+artistExample                                     3.90805240  22.07894769
+artistFabolous                                    8.34018298  17.81496785
+artistFaithless                                  54.63375059  45.95620976
+artistFall Out Boy                               22.03284667  14.89241861
+artistFar East Movement                          17.00738294  22.67415682
+artistFat Joe                                    -1.75454029  15.80290996
+artistFedde Le Grand                            -36.80319830  24.70597661
+artistFelix Jaehn                                -7.89095727  22.66611506
+artistFergie                                      3.73249126  22.39861875
+artistFifth Harmony                              11.09619793  18.06703234
+artistFinger Eleven                              14.49889334  21.92001937
+artistFINNEAS                                    -4.55397209  22.80382515
+artistFitz and The Tantrums                       4.54032816  22.12104447
+artistFive                                       -9.37481506  21.89855507
+artistFlo Rida                                    9.19231324  14.40084443
+artistFloetry                                   -10.83576568  22.50215135
+artistFlorence + The Machine                      7.26496472  21.89617511
+artistFlorida Georgia Line                       -3.79214789  22.13940088
+artistFlume                                     -56.15115266  22.25590686
+artistFoo Fighters                               23.51827456  17.54834835
+artistFort Minor                                 -2.70179125  17.85596626
+artistFrankie J                                 -12.43941886  22.17675638
+artistFranz Ferdinand                            -2.17407310  22.04131247
+artistFrench Montana                             32.79280009  22.48175203
+artistfun.                                       12.24997921  22.36562210
+artistFuture                                     28.54755744  26.97471583
+artistG-Eazy                                    -17.15501977  18.08092015
+artistG.R.L.                                      5.56714066  22.17235008
+artistGalantis                                   12.85284887  17.65881014
+artistGareth Gates                               -6.02463383  21.95412964
+artistGarrett Nash                               17.69136806  23.03602046
+artistGary Jules                                  6.29609603  23.15101719
+artistGavin DeGraw                              -12.13855781  22.31676308
+artistGeorge Michael                             -9.18687385  22.10911157
+artistGesaffelstein                              19.72597129  23.33157156
+artistGigi D'Agostino                            -6.86194148  23.17706734
+artistGinuwine                                    2.28062329  22.25610704
+artistgirl in red                                16.55954383  24.33036268
+artistGirls Aloud                                 2.42590209  15.82004655
+artistGood Charlotte                              5.99655487  22.04144408
+artistGorgon City                                 1.28886362  22.37713652
+artistGorillaz                                   14.70404423  15.80606691
+artistGreen Day                                  20.15901599  17.98251225
+artistGrimes                                      1.11200014  50.78006051
+artistGrouplove                                  18.16086572  22.40204243
+artistGuru Josh Project                         -59.01270677  22.03004486
+artistGwen Stefani                                5.56164790  15.99696693
+artistGym Class Heroes                            3.84619062  16.08492566
+artistH "two" O                                  -1.54995772  22.05317280
+artistHalsey                                      9.24999818  17.79122607
+artistHilltop Hoods                              -2.34776442  22.62142462
+artistHinder                                    -35.12419022  18.51023749
+artistHoobastank                                 25.40563734  22.35675697
+artistHouston                                    -7.95842609  22.22972610
+artistHozier                                     17.46028700  22.40161043
+artistHugh Jackman                               22.73735177  22.47110140
+artistiann dior                                   4.11264009  18.67766255
+artistIcona Pop                                   1.19137532  17.84089648
+artistiio                                        -3.95966698  22.31974228
+artistImagine Dragons                           -10.75139623  18.60504094
+artistInfernal                                    1.76837435  21.97653220
+artistINNA                                        8.37176947  31.41681700
+artistIyaz                                       18.33220528  22.37444164
+artistJ Balvin                                   -1.24438395  22.21384578
+artistJ-Kwon                                      8.12950895  22.14623013
+artistJ. Holiday                                  7.20130674  17.95175401
+artistJa Rule                                    12.19601437  17.66973647
+artistJack Ü                                     20.14911472  22.36881383
+artistJack White                                  2.41479135  22.10833789
+artistJagged Edge                                 0.83314272  15.22837908
+artistJamelia                                     9.31106824  21.95483036
+artistJames Blunt                                12.00190516  22.08155543
+artistJames Morrison                              7.01671408  17.55595725
+artistJamie Foxx                                  4.85947812  22.26652978
+artistJanet Jackson                               2.11215999  17.59441696
+artistJason Derulo                                6.65142880  13.43033902
+artistJax Jones                                 -37.42518974  17.85854340
+artistJay Rock                                   -3.95269792  22.43937598
+artistJay Sean                                  -35.98562963  17.69126723
+artistJAY-Z                                      11.67202358  13.61895925
+artistJeezy                                       1.39559126  17.89947001
+artistJennifer Hudson                            -7.03787550  21.92851541
+artistJennifer Lopez                             -7.02380551  13.37634747
+artistJeremih                                    12.34988206  16.13523464
+artistJessica Simpson                             1.10586489  21.84681068
+artistJessie J                                   12.40448883  15.90209537
+artistJim Jones                                 -50.51948835  22.35023542
+artistJimmy Eat World                            29.76867781  21.75176035
+artistJoe                                        -3.65421851  21.62020258
+artistJoel Adams                                 16.12832952  22.25524536
+artistJohn Legend                                 7.76655283  17.76172960
+artistJohn Newman                                21.21979495  22.12020373
+artistJoJo                                       -9.01824959  17.62550672
+artistJon Bellion                                13.02968965  22.25842969
+artistJonas Blue                                -29.57091678  17.80728439
+artistJonas Brothers                             11.31111076  22.10219192
+artistJordin Sparks                               1.79064193  17.73378292
+artistJuanes                                      6.63850821  21.97721930
+artistJuice WRLD                                 -3.53123581  18.17428641
+artistJunior Senior                              16.37751919  22.71472569
+artistJust Jack                                 -10.86159050  22.59341309
+artistJustin Bieber                              -4.83171644  14.45364419
+artistJustin Timberlake                           5.01904980  14.64566939
+artistJUVENILE                                    8.85550932  22.11928078
+artistK-Ci & JoJo                               -48.92016627  22.65318003
+artistK'NAAN                                     -6.45084275  22.00452405
+artistKaiser Chiefs                               5.63692955  17.47969048
+artistKALEO                                       2.82095949  22.31643235
+artistKandi                                      -4.70222748  21.63902280
+artistKanye West                                  7.78543396  13.90506224
+artistKardinal Offishall                         10.98382741  22.21502258
+artistKasabian                                   11.56273825  23.40451887
+artistKatie Melua                                -2.23525246  18.19928669
+artistKaty Perry                                 -0.97439075  13.12513352
+artistKeane                                       2.14146041  21.99154842
+artistKehlani                                     3.96732868  22.74752698
+artistKelis                                      -2.78480304  17.88400431
+artistKelly Clarkson                              8.08401031  13.82248629
+artistKelly Rowland                              -1.62967264  21.98615766
+artistKendrick Lamar                            -18.39806724  18.17127506
+artistKeri Hilson                                -7.55868130  15.86349276
+artistKesha                                     -18.24022679  15.87640461
+artistKevin Lyttle                               14.08517441  22.01989775
+artistKevin Rudolf                                8.99322274  22.15840940
+artistKeyshia Cole                                5.07367622  17.68637243
+artistKhalid                                     17.15890279  29.65917629
+artistKiesza                                     -3.41188872  22.38728774
+artistKiiara                                     -0.56369296  22.59020611
+artistKlangkarussell                              6.12633247  22.34727160
+artistKodak Black                                 0.34903009  22.52758505
+artistKungs                                     -65.76494317  21.97744417
+artistKygo                                      -14.73732855  16.46367239
+artistKylie Minogue                              -1.15498832  15.36709473
+artistLa Roux                                    -1.16223898  17.82984801
+artistLady A                                      1.44739721  22.06259276
+artistLady Gaga                                   7.12553308  13.75370876
+artistLana Del Rey                                4.56628671  15.13059677
+artistLas Ketchup                                 4.71268486  22.07878066
+artistLauv                                        7.58004105  22.59720579
+artistLeAnn Rimes                                 7.99640143  21.75128025
+artistLenny Kravitz                              18.01673735  21.55822487
+artistLeona Lewis                                12.23188892  16.34449276
+artistLewis Capaldi                              10.69365336  22.74554111
+artistLiam Payne                                -15.20066648  22.42047840
+artistLil Dicky                                  -8.34159146  22.38772755
+artistLil Jon                                     3.37379031  22.37379237
+artistLil Jon & The East Side Boyz                5.19675880  22.43965599
+artistLil Nas X                                   1.93152370  22.67795476
+artistLil Peep                                   29.90344873  22.62849210
+artistLil Pump                                   14.31699024  22.66529113
+artistLil Tecca                                  11.32958613  22.88801580
+artistLil Wayne                                 -15.92557433  14.27460680
+artistLil' Flip                                 -19.34936581  22.35521896
+artistLil' Kim                                  -22.86443419  23.43545068
+artistLily Allen                                  5.57366113  17.91364659
+artistLimp Bizkit                                38.12756377  26.77201576
+artistLinkin Park                                19.34482291  15.08458531
+artistLittle Mix                                -52.15685183  17.90524154
+artistLL Cool J                                 -33.56272999  17.63733165
+artistLloyd                                      20.08776499  22.48522888
+artistLMC                                         3.89309732  22.10096029
+artistLMFAO                                      10.77105948  22.22003309
+artistLogic                                      -6.73621194  22.24353645
+artistLorde                                     -19.98305228  18.00360021
+artistLost Frequencies                          -31.28796777  22.59256965
+artistLucenzo                                   -56.96554660  22.15080272
+artistLudacris                                    2.33505303  14.08467192
+artistLuis Fonsi                                -46.30986844  22.34959086
+artistLumidee                                    55.73090311  42.58024367
+artistLunay                                      -5.35462179  22.90435084
+artistLupe Fiasco                                16.03610594  22.12319998
+artistM.I.A.                                    -48.42916256  22.32252621
+artistM.O                                       -28.18381486  22.40100859
+artistM.O.P.                                     -2.37825528  21.63029910
+artistM83                                        13.85571933  22.00377453
+artistMabel                                     -72.68860897  22.53281132
+artistMacklemore                                 19.35352822  22.08257564
+artistMacklemore & Ryan Lewis                    21.95573175  22.20265659
+artistMadison Avenue                            -18.33443291  23.67288395
+artistMadonna                                     7.61840926  14.72754940
+artistMaggie Lindemann                           19.58574030  23.29985218
+artistMaluma                                     -6.58720882  22.42841136
+artistMann                                      -12.88147646  22.27047470
+artistMariah Carey                              -28.86379308  14.33323807
+artistMARINA                                     -1.86079327  17.76184803
+artistMario                                      -5.01140014  22.54459249
+artistMark Ronson                                -7.10835079  17.70090735
+artistMaroon 5                                   -8.43861446  13.62404030
+artistMarshmello                                 19.36603012  17.97281697
+artistMary J. Blige                               4.66800584  15.71737546
+artistMeck                                       37.11376034  41.10649946
+artistMEDUZA                                      0.46466854  22.46739602
+artistMeek Mill                                   4.97717297  18.20114118
+artistMegan Thee Stallion                        -2.84293025  22.66588022
+artistMeghan Trainor                             17.14805419  16.09986684
+artistMelanie C                                 -13.67718268  19.47636727
+artistMetro Station                              14.15238305  22.19157803
+artistMichel Teló                               -68.97670554  22.66988796
+artistMichelle Branch                             4.16015927  21.83231020
+artistMigos                                       5.51199359  15.96804304
+artistMiguel                                     12.22582303  22.07301264
+artistMIKA                                       12.37497264  21.88408213
+artistMike Perry                                 11.77131849  22.52722838
+artistMike Posner                                12.92751813  17.80814095
+artistMiley Cyrus                               -21.54647362  14.78929360
+artistMilky Chance                                3.70682435  22.65608250
+artistMis-Teeq                                   -8.30263645  17.61705771
+artistMissy Elliott                               7.56208954  15.09644902
+artistMK                                         19.00784249  22.74993973
+artistMKTO                                       17.80198703  22.05076507
+artistMNEK                                      -13.82030350  22.08812934
+artistMØ                                          1.45343233  22.20195033
+artistModjo                                      20.55312720  21.87216769
+artistMonica                                      3.01520537  22.07682202
+artistMontell Jordan                            -16.15874007  23.25892857
+artistMr. Probz                                 -64.18652790  22.39881525
+artistMumford & Sons                             11.71036484  22.37103300
+artistMuse                                       22.13502587  22.02292839
+artistMustard                                     2.65105177  22.73003560
+artistMy Chemical Romance                        29.00796179  22.43950034
+artistN.E.R.D                                    -0.81922823  22.10221514
+artistN.O.R.E.                                  -10.32336382  22.71597423
+artistNatalie Imbruglia                          -8.09460213  21.89209806
+artistNatasha Bedingfield                       -55.32704247  22.17522337
+artistNatti Natasha                              19.81166794  22.41267169
+artistNe-Yo                                       6.47366179  14.86963249
+artistNelly                                       2.80089862  13.51058021
+artistNelly Furtado                              -2.63252277  15.66642553
+artistNext                                      -11.04769985  22.13599809
+artistNF                                         25.82074354  22.25692683
+artistNick Jonas                                -30.74863330  17.84770282
+artistNick Lachey                               -16.76768464  22.23486008
+artistNickelback                                  7.33956727  14.09914422
+artistNicki Minaj                                 3.43056204  16.43853869
+artistNico & Vinz                                 5.11449864  22.26274275
+artistNina Sky                                    2.02334920  22.00153430
+artistNio Garcia                                 -9.18027693  23.58687739
+artistNo Doubt                                  -24.21539272  15.52245356
+artistNSG                                         9.65789229  29.87533707
+artistO.T. Genasis                               -5.33236871  22.63508706
+artistOasis                                     -52.98123578  21.77574901
+artistOf Monsters and Men                        14.82864725  22.02766495
+artistOffset                                     32.60545473  22.65304090
+artistOliver Heldens                              4.77843164  21.93736862
+artistOlly Murs                                  -0.79218940  17.60497907
+artistOmarion                                    -2.15788948  22.06456495
+artistOne Direction                               3.52238733  14.53354428
+artistOneRepublic                                11.41063340  14.96871791
+artistOutkast                                    15.57357437  14.80910445
+artistOzuna                                      -7.52774858  22.44917369
+artistP!nk                                       -6.13761482  12.88281281
+artistPaloma Faith                               15.32170528  22.23619835
+artistPapa Roach                                  3.37087122  22.13325428
+artistParamore                                   18.92722528  21.86461186
+artistPARTYNEXTDOOR                               2.34219288  22.08550086
+artistPassenger                                   9.45633371  22.28269080
+artistPendulum                                    6.06933587  23.35925640
+artistPetey Pablo                                 5.54691673  22.41981054
+artistPharrell Williams                          13.79818038  17.71657680
+artistPhilip George                               7.98295784  22.60875943
+artistPia Mia                                    16.95600164  22.29338269
+artistPitbull                                     4.43335327  13.99430191
+artistPixie Lott                                -10.14161438  22.35083944
+artistPlain White T's                            18.08924072  22.44765390
+artistPlan B                                     -6.81590211  22.32694115
+artistPlies                                       5.38523330  16.39112488
+artistPolo G                                     11.69711617  23.08255928
+artistPost Malone                                -5.28632404  14.90667178
+artistPretty Ricky                               -0.54796787  15.96935809
+artistProfessor Green                           -22.88371726  22.23267083
+artistPuddle Of Mudd                              9.59277372  17.65536051
+artistR. City                                    21.42651166  22.21559763
+artistRae Sremmurd                               15.41715500  18.17318152
+artistRag'n'Bone Man                             24.25241357  18.14628652
+artistRascal Flatts                             -19.54817346  17.97969165
+artistRay J                                      -0.35750693  22.24094987
+artistRazorlight                                 14.07131185  22.39764853
+artistRed Hot Chili Peppers                      13.31257350  14.89780787
+artistRich Boy                                    8.55193445  22.58820226
+artistRicky Martin                               -6.63647624  17.13184586
+artistRihanna                                    10.29758183  12.39815222
+artistRita Ora                                    3.65076017  22.40407264
+artistRixton                                     15.89547386  22.11763388
+artistRizzle Kicks                               -1.76688270  22.09146358
+artistRob $tone                                  16.09904191  22.78017099
+artistRob Thomas                                  0.90793825  21.78315615
+artistRobbie Williams                            -1.78693435  15.42411025
+artistRobin Schulz                               19.76138044  22.18081930
+artistRobyn                                     -24.25495725  21.96374446
+artistRoger Sanchez                              -3.07231085  23.85708420
+artistRonan Keating                              -1.79729680  17.24908982
+artistRoom 5                                     42.61032334  38.38347732
+artistRoute 94                                   53.02826204  42.77196812
+artistRudimental                                  1.61315785  22.30676198
+artistRuff Endz                                 -11.28273589  21.56861767
+artistRyan Cabrera                                0.67496649  22.26778588
+artistSam Feldt                                  -1.17109755  22.60050710
+artistSam Smith                                  14.98889884  16.29555790
+artistSam Sparro                                 -5.74529058  22.02888558
+artistSamantha Mumba                            -40.77088228  22.11109311
+artistSandi Thom                                  4.56718362  23.10151429
+artistSaving Abel                                13.75948324  22.13684501
+artistSaweetie                                   10.02130912  23.00626694
+artistSAYGRACE                                    9.71941779  18.19548223
+artistScHoolboy Q                               -63.14668116  22.73942019
+artistScissor Sisters                           -15.40387348  22.29044956
+artistSean Kingston                               4.52335469  15.88385809
+artistSean Paul                                   1.08312254  14.35028378
+artistSeether                                    22.22237483  22.06320525
+artistSelena Gomez                                5.89804616  14.07032271
+artistSeptember                                  14.98970443  21.93057425
+artistShaggy                                     13.72104594  21.45726593
+artistShakira                                     9.71071680  15.61730866
+artistShawn Mendes                              -22.52127598  17.88866203
+artistShayne Ward                               -52.74854328  22.49656207
+artistSheppard                                  -61.90143539  22.29579483
+artistShinedown                                   3.64474713  21.78257664
+artistShontelle                                 -29.69360590  22.08292586
+artistShop Boyz                                   5.70569198  22.29899827
+artistSia                                        11.38779041  16.14005764
+artistSidney Samson                              43.49946063  50.19093826
+artistSigala                                     -8.84449599  16.14699272
+artistSigma                                       1.46148272  22.19780680
+artistSisqo                                      -0.22320945  19.34601141
+artistSkrillex                                   13.53784156  22.41752153
+artistSnoop Dogg                                 -6.47888187  16.12521838
+artistSnow Patrol                                -9.93050995  22.33408965
+artistSo Solid Crew                              -2.08675739  22.07301994
+artistSonique                                     4.77056925  21.43092829
+artistSophie Ellis-Bextor                        -7.99351227  22.06604593
+artistSoulja Boy                                  8.22732885  15.90788765
+artistSpiderbait                                 45.27918383  36.80772526
+artistStarley                                   -12.14008676  21.95251246
+artistSteps                                      -4.29845212  21.47351935
+artistStorm Queen                               -66.70755906  22.16658037
+artistStromae                                   -25.70118107  17.65553348
+artistSugababes                                  -0.79887103  15.73521686
+artistSunshine Anderson                          -5.16483729  22.09123504
+artistSwedish House Mafia                         6.50832846  15.69308550
+artistT-Pain                                    -60.56611477  15.36201558
+artistT.I.                                        9.97543723  16.11463177
+artistTaio Cruz                                  16.71336248  17.87140987
+artistTake That                                  10.31072946  17.75432457
+artistTamia                                     -12.35438653  21.47656094
+artistTaylor Swift                               10.60317807  13.14917703
+artistTerror Squad                               13.50556507  22.59385150
+artistThe Band Perry                              1.98489139  22.25304794
+artistThe Chainsmokers                           17.37636227  14.25413566
+artistThe Fray                                   10.21206605  15.93337920
+artistThe Game                                   20.57962040  17.97243496
+artistThe Kooks                                  16.99644674  22.03093985
+artistThe Neighbourhood                          31.46308696  22.20797501
+artistThe Offspring                              21.35507960  21.91666513
+artistThe Pussycat Dolls                          2.71560107  15.98777851
+artistThe Raconteurs                              7.69863727  22.11378970
+artistThe Rasmus                                 12.56111360  22.13514934
+artistThe Red Jumpsuit Apparatus                 19.24477571  22.09110375
+artistThe Saturdays                               2.63440233  22.05093919
+artistThe Script                                 13.33123380  17.84182192
+artistThe Streets                                 4.99229004  22.47311108
+artistThe Strumbellas                            11.74465106  22.04238103
+artistThe Supermen Lovers                         1.01512628  21.61398356
+artistThe Vamps                                  12.98729844  17.98338359
+artistThe Wanted                                -16.91948258  17.51507616
+artistThe Weeknd                                 12.32914873  14.10046082
+artistThe xx                                      9.21109356  51.86692339
+artistThe-Dream                                  -2.15362211  22.32102548
+artistTiësto                                    -33.22164110  17.93073640
+artistTimbaland                                   6.02829127  16.06616902
+artistTinchy Stryder                             -8.39268578  21.86407764
+artistTinie Tempah                               -1.42454385  17.95680377
+artistTom Jones                                  -7.09331713  22.97681065
+artistTom Odell                                  34.11690864  22.65060424
+artistTom Walker                                 20.93602964  22.47658153
+artistTones And I                                -0.53916931  22.85790023
+artistToni Braxton                                3.39303939  21.54395602
+artistTory Lanez                                -23.47237228  18.37813777
+artistTove Lo                                   -53.00817260  22.44264908
+artistTrain                                      19.86137636  21.61436540
+artistTrapt                                      13.76255070  22.43114579
+artistTravis                                     20.20620530  22.04136803
+artistTravis Scott                               -3.07101348  15.44386605
+artistTrey Songz                                -19.25590605  15.11259721
+artistTrillville                                 -9.24492970  22.73515590
+artistTruth Hurts                                -6.30848993  22.30010261
+artistTweet                                      -0.08092964  22.43239337
+artistTwenty One Pilots                          23.34665555  16.16642879
+artistTwista                                     10.44988189  18.04621810
+artistTyga                                       -7.38887744  22.44875724
+artistTyrese                                    -13.75345489  22.66795321
+artistUsher                                       7.23794584  13.43230563
+artistVance Joy                                  17.87709160  22.17154621
+artistVanessa Carlton                            11.29437760  22.26663188
+artistWaka Flocka Flame                          -7.10935690  22.29562400
+artistWestlife                                  -34.46987867  16.33573733
+artistWheatus                                    10.27157234  23.46879780
+artistWiley                                      -3.30936307  17.91218747
+artistWill Smith                                -13.36678782  30.19659994
+artistWill Young                                 -4.11067439  22.20160988
+artistwill.i.am                                   3.55813546  22.13431323
+artistWiz Khalifa                                15.92846719  16.09635412
+artistWyclef Jean                                -5.70401214  22.19735494
+artistXXXTENTACION                               13.25994806  16.55853429
+artistYears & Years                             -55.94894721  22.16649069
+artistYing Yang Twins                             2.51446085  18.16557616
+artistYlvis                                       5.38311591  22.10054471
+artistYolanda Be Cool                           -56.39991769  22.49182385
+artistYoung T & Bugsey                           -8.32212169  22.59312664
+artistYoungbloodz                                -6.81484430  22.53904756
+artistYung Joc                                    3.87088519  22.37950796
+artistZara Larsson                               -5.69891453  15.27180880
+artistZay Hilfigerrr                             -2.33964774  22.40399396
+artistZAYN                                        3.67394321  22.34706009
+artistZedd                                      -17.53401491  16.02822311
+duration_ms                                       0.00002368   0.00002722
+explicitTrue                                     -3.42103159   2.47503911
+year1999                                         23.33117446  22.48057277
+year2000                                         12.99651871  21.53692660
+year2001                                         13.03388588  20.81637404
+year2002                                         20.38228692  21.60591314
+year2003                                         13.69922486  21.46339407
+year2004                                         15.80776194  21.45319732
+year2005                                         17.58125483  21.18471930
+year2006                                         12.47679674  21.53989663
+year2007                                         12.38101306  21.43044754
+year2008                                         19.14429166  21.48551632
+year2009                                         18.75617565  21.57633246
+year2010                                         18.47047324  21.45917614
+year2011                                         17.03898511  21.50826252
+year2012                                         20.87405075  21.51690503
+year2013                                         14.32373428  21.50882354
+year2014                                         19.64007072  21.60429270
+year2015                                         11.92652400  21.59065125
+year2016                                         16.11181516  21.67148676
+year2017                                          9.61021187  21.77565950
+year2018                                         35.26149835  21.74191381
+year2019                                         28.65845540  22.00666543
+year2020                                                  NA           NA
+danceability                                     12.80437434   8.57276041
+energy                                           -7.53533028   8.91349212
+keyC#                                             0.46980653   3.42517319
+keyD                                             -5.54752117   3.95298391
+keyD#                                             2.27409702   5.28653786
+keyE                                             -3.32926167   4.33195991
+keyF                                             -3.14751564   3.88791225
+keyF#                                            -0.25950126   3.89045910
+keyG                                             -1.66150205   3.80178746
+keyG#                                             1.22093936   3.88555983
+keyA                                             -5.98955053   3.68536286
+keyA#                                             0.82452189   4.18012223
+keyB                                             -0.16259867   3.63874700
+loudness                                          0.12269766   0.66465094
+modeMajor                                        -2.95119439   1.67245690
+speechiness                                     -11.32801626  11.25270277
+acousticness                                      0.82498335   5.51467582
+instrumentalness                                -69.43062668  50.69936233
+liveness                                          9.12969785   5.55077078
+valence                                          -0.18390536   4.83795697
+tempo                                            -0.00409023   0.03123544
+is_jazzTrue                                               NA           NA
+is_countryTrue                                            NA           NA
+is_rockTrue                                               NA           NA
+is_popTrue                                                NA           NA
+is_hip_hopTrue                                            NA           NA
+is_folk_acousticTrue                                      NA           NA
+is_r.bTrue                                                NA           NA
+is_latinTrue                                              NA           NA
+is_dance_electronicTrue                                   NA           NA
+is_easy_listeningTrue                                     NA           NA
+is_metalTrue                                              NA           NA
+is_classicalTrue                                          NA           NA
+is_bluesTrue                                              NA           NA
+is_world_traditionalTrue                                  NA           NA
+has_featureTrue                                   1.20702336   2.86105643
+                                                t value  Pr(>|t|)    
+(Intercept)                                       1.490  0.136893    
+artist112                                        -0.074  0.941231    
+artist2 Chainz                                    0.894  0.371976    
+artist21 Savage                                  -0.181  0.856210    
+artist2Pac                                        0.275  0.783510    
+artist3 Doors Down                               -0.270  0.787252    
+artist3OH!3                                      -0.487  0.626635    
+artist5 Seconds of Summer                        -1.272  0.204001    
+artist50 Cent                                     1.007  0.314457    
+artistA Boogie Wit da Hoodie                     -0.072  0.942657    
+artistA.R. Rahman                                 0.004  0.996565    
+artistA$AP Ferg                                   1.205  0.228554    
+artistAaliyah                                    -1.453  0.146839    
+artistAdam Lambert                               -0.358  0.720693    
+artistAdele                                      -3.070  0.002250 ** 
+artistAfroman                                     0.788  0.431252    
+artistAgnes                                       0.258  0.796738    
+artistAkon                                       -1.404  0.160985    
+artistAlec Benjamin                              -0.060  0.952522    
+artistAlesha Dixon                               -0.622  0.534157    
+artistAlessia Cara                               -2.271  0.023536 *  
+artistAlesso                                     -2.451  0.014563 *  
+artistAlex Clare                                 -0.192  0.847818    
+artistAlex Gaudino                                1.019  0.308608    
+artistAlexandra Burke                             0.251  0.802182    
+artistAlexandra Stan                             -2.868  0.004302 ** 
+artistAlicia Keys                                -0.049  0.961002    
+artistAll Saints                                  0.210  0.833616    
+artistAll Time Low                                1.335  0.182526    
+artistAloe Blacc                                 -3.105  0.002007 ** 
+artistAlok                                       -0.534  0.593436    
+artistAmerie                                     -0.432  0.665940    
+artistAmy Winehouse                               1.048  0.295288    
+artistAnastacia                                  -0.292  0.770349    
+artistAngie Martinez                             -1.165  0.244396    
+artistAnne-Marie                                  0.059  0.952759    
+artistArctic Monkeys                              1.669  0.095804 .  
+artistAriana Grande                              -0.921  0.357476    
+artistAsaf Avidan & the Mojos                    -3.212  0.001399 ** 
+artistAshanti                                    -0.281  0.779106    
+artistAsher Roth                                  0.005  0.996177    
+artistAshley O                                   -0.447  0.654813    
+artistAstrid S                                   -2.807  0.005189 ** 
+artistAtomic Kitten                               0.094  0.924787    
+artistAudioslave                                  0.309  0.757335    
+artistAvant                                      -0.536  0.591891    
+artistAvicii                                      0.440  0.659801    
+artistAvril Lavigne                               1.062  0.288871    
+artistAzealia Banks                              -2.753  0.006118 ** 
+artistB Young                                    -1.009  0.313328    
+artistB.o.B                                       0.511  0.609767    
+artistB2K                                        -0.543  0.587020    
+artistBaauer                                     -0.008  0.993302    
+artistBaby Bash                                  -2.525  0.011871 *  
+artistBackstreet Boys                             0.734  0.463356    
+artistBad Bunny                                  -0.401  0.688928    
+artistBad Meets Evil                              0.448  0.654428    
+artistBaha Men                                    0.343  0.731743    
+artistBasement Jaxx                              -3.079  0.002186 ** 
+artistBastille                                    0.679  0.497277    
+artistBazzi                                       0.071  0.943317    
+artistBecky G                                    -0.639  0.523156    
+artistBenny Benassi                               0.673  0.501450    
+artistbenny blanco                               -0.147  0.882869    
+artistBeyoncé                                     0.410  0.682268    
+artistBig Brovaz                                 -0.575  0.565619    
+artistBig Sean                                    0.739  0.460042    
+artistBillie Eilish                               1.220  0.223137    
+artistBingo Players                              -2.520  0.012032 *  
+artistBirdy                                      -0.370  0.711403    
+artistBlack Eyed Peas                            -0.103  0.917900    
+artistblackbear                                  -2.188  0.029086 *  
+artistBLACKPINK                                  -2.871  0.004260 ** 
+artistBlake Shelton                              -0.057  0.954821    
+artistBlazin' Squad                              -1.018  0.309153    
+artistblink-182                                   0.552  0.581224    
+artistBlu Cantrell                                0.501  0.616858    
+artistBlue                                       -0.137  0.890812    
+artistBlueface                                   -3.429  0.000653 ***
+artistBob Sinclar                                -0.551  0.581860    
+artistBodyrockers                                -0.208  0.835242    
+artistBon Jovi                                    0.871  0.384185    
+artistBone Thugs-N-Harmony                        0.404  0.686614    
+artistBow Wow                                    -0.412  0.680703    
+artistBoys Like Girls                             0.349  0.727420    
+artistBrandy                                     -0.823  0.410954    
+artistBrian McFadden                             -0.730  0.465551    
+artistBritney Spears                              0.114  0.909216    
+artistBruno Mars                                  1.296  0.195447    
+artistBryson Tiller                               1.276  0.202357    
+artistBTS                                        -1.815  0.070117 .  
+artistBurak Yeter                                 0.693  0.488451    
+artistBusta Rhymes                                0.020  0.983875    
+artistCalvin Harris                               0.803  0.422495    
+artistCam’ron                                     0.282  0.778209    
+artistCamila Cabello                             -1.618  0.106283    
+artistCamille Jones                              -1.627  0.104250    
+artistCapital Cities                             -2.558  0.010807 *  
+artistCardi B                                    -0.348  0.727818    
+artistCarrie Underwood                            0.493  0.621943    
+artistCascada                                    -0.120  0.904779    
+artistCéline Dion                                 0.065  0.948092    
+artistChamillionaire                              0.202  0.840031    
+artistCharlene Soraia                             0.057  0.954395    
+artistCharli Baltimore                           -0.757  0.449542    
+artistCharlie Puth                               -1.041  0.298289    
+artistChase & Status                              0.194  0.846499    
+artistCheat Codes                                -1.289  0.198108    
+artistCheryl                                      0.180  0.857057    
+artistChildish Gambino                           -2.545  0.011216 *  
+artistChingy                                      0.429  0.668330    
+artistChip                                       -0.330  0.741216    
+artistChris Brown                                 0.325  0.744998    
+artistChristina Aguilera                          0.431  0.666711    
+artistChristina Perri                             0.311  0.756040    
+artistCiara                                       0.196  0.844553    
+artistClean Bandit                               -1.604  0.109351    
+artistCobra Starship                              0.223  0.823744    
+artistColby O'Donis                              -0.265  0.790920    
+artistColdplay                                    1.047  0.295482    
+artistCounting Crows                             -0.383  0.701944    
+artistCraig David                                -0.366  0.714738    
+artistCrazy Town                                  0.293  0.769804    
+artistCreed                                       0.060  0.952314    
+artistD12                                         0.443  0.657981    
+artistD4L                                         0.133  0.894170    
+artistDaddy Yankee                               -1.326  0.185395    
+artistDaft Punk                                   0.874  0.382412    
+artistDaniel Bedingfield                         -0.844  0.398985    
+artistDaniel Powter                               0.464  0.642622    
+artistDanity Kane                                -0.603  0.546975    
+artistDarude                                      1.502  0.133656    
+artistDave                                        0.406  0.685259    
+artistDavid Archuleta                             0.096  0.923853    
+artistDavid Banner                               -0.182  0.855897    
+artistDavid Guetta                                0.516  0.606259    
+artistDaya                                       -2.275  0.023285 *  
+artistDB Boulevard                               -3.264  0.001168 ** 
+artistDefault                                    -0.422  0.673518    
+artistDemi Lovato                                 0.894  0.371850    
+artistDennis Lloyd                                0.958  0.338590    
+artistDeorro                                      0.285  0.775754    
+artistDesiigner                                   0.630  0.528897    
+artistDestiny's Child                             0.186  0.852209    
+artistDEV                                        -0.733  0.463967    
+artistDiddy                                      -0.114  0.909412    
+artistDido                                       -0.466  0.641255    
+artistDisclosure                                  0.219  0.826360    
+artistDisturbing Tha Peace                       -0.170  0.864736    
+artistDizzee Rascal                               0.097  0.922559    
+artistDJ Casper                                  -0.577  0.563877    
+artistDJ Fresh                                   -0.199  0.842571    
+artistDJ Khaled                                   0.066  0.947517    
+artistDJ Ötzi                                    -0.266  0.790306    
+artistDJ Pied Piper & The Masters Of Ceremonies   0.049  0.960865    
+artistDJ Sammy                                   -0.037  0.970555    
+artistDJ Snake                                    0.704  0.481803    
+artistDMX                                         0.403  0.687416    
+artistDNCE                                        0.993  0.321379    
+artistDoja Cat                                   -0.598  0.550321    
+artistDonell Jones                               -0.640  0.522288    
+artistDr. Dre                                     0.788  0.431089    
+artistDrake                                       0.097  0.922424    
+artistDua Lipa                                    0.819  0.412977    
+artistDuck Sauce                                 -0.140  0.888850    
+artistEchosmith                                   0.449  0.653582    
+artistEd Sheeran                                  0.334  0.738554    
+artistEdward Maya                                 0.043  0.965937    
+artistElla Henderson                              0.249  0.803666    
+artistElla Mai                                   -0.339  0.734513    
+artistEllie Goulding                              0.180  0.857439    
+artistEminem                                      1.221  0.222738    
+artistEmma Bunton                                -0.116  0.908003    
+artistEnrique Iglesias                           -0.305  0.760761    
+artistEric Prydz                                 -1.091  0.275627    
+artistErick Sermon                               -0.192  0.847968    
+artistErykah Badu                                -0.372  0.709702    
+artistEstelle                                     0.852  0.394833    
+artistEvanescence                                 1.223  0.221884    
+artistEve                                         0.128  0.897946    
+artistExample                                     0.177  0.859574    
+artistFabolous                                    0.468  0.639867    
+artistFaithless                                   1.189  0.235047    
+artistFall Out Boy                                1.479  0.139615    
+artistFar East Movement                           0.750  0.453544    
+artistFat Joe                                    -0.111  0.911638    
+artistFedde Le Grand                             -1.490  0.136917    
+artistFelix Jaehn                                -0.348  0.727875    
+artistFergie                                      0.167  0.867718    
+artistFifth Harmony                               0.614  0.539370    
+artistFinger Eleven                               0.661  0.508617    
+artistFINNEAS                                    -0.200  0.841791    
+artistFitz and The Tantrums                       0.205  0.837457    
+artistFive                                       -0.428  0.668752    
+artistFlo Rida                                    0.638  0.523545    
+artistFloetry                                    -0.482  0.630331    
+artistFlorence + The Machine                      0.332  0.740179    
+artistFlorida Georgia Line                       -0.171  0.864066    
+artistFlume                                      -2.523  0.011931 *  
+artistFoo Fighters                                1.340  0.180760    
+artistFort Minor                                 -0.151  0.879789    
+artistFrankie J                                  -0.561  0.575090    
+artistFranz Ferdinand                            -0.099  0.921465    
+artistFrench Montana                              1.459  0.145262    
+artistfun.                                        0.548  0.584121    
+artistFuture                                      1.058  0.290402    
+artistG-Eazy                                     -0.949  0.343163    
+artistG.R.L.                                      0.251  0.801847    
+artistGalantis                                    0.728  0.467034    
+artistGareth Gates                               -0.274  0.783870    
+artistGarrett Nash                                0.768  0.442840    
+artistGary Jules                                  0.272  0.785762    
+artistGavin DeGraw                               -0.544  0.586727    
+artistGeorge Michael                             -0.416  0.677928    
+artistGesaffelstein                               0.845  0.398238    
+artistGigi D'Agostino                            -0.296  0.767297    
+artistGinuwine                                    0.102  0.918421    
+artistgirl in red                                 0.681  0.496417    
+artistGirls Aloud                                 0.153  0.878186    
+artistGood Charlotte                              0.272  0.785684    
+artistGorgon City                                 0.058  0.954091    
+artistGorillaz                                    0.930  0.352654    
+artistGreen Day                                   1.121  0.262786    
+artistGrimes                                      0.022  0.982537    
+artistGrouplove                                   0.811  0.417917    
+artistGuru Josh Project                          -2.679  0.007622 ** 
+artistGwen Stefani                                0.348  0.728228    
+artistGym Class Heroes                            0.239  0.811108    
+artistH "two" O                                  -0.070  0.943995    
+artistHalsey                                      0.520  0.603339    
+artistHilltop Hoods                              -0.104  0.917380    
+artistHinder                                     -1.898  0.058303 .  
+artistHoobastank                                  1.136  0.256319    
+artistHouston                                    -0.358  0.720481    
+artistHozier                                      0.779  0.436083    
+artistHugh Jackman                                1.012  0.312077    
+artistiann dior                                   0.220  0.825809    
+artistIcona Pop                                   0.067  0.946784    
+artistiio                                        -0.177  0.859258    
+artistImagine Dragons                            -0.578  0.563596    
+artistInfernal                                    0.080  0.935897    
+artistINNA                                        0.266  0.789979    
+artistIyaz                                        0.819  0.412966    
+artistJ Balvin                                   -0.056  0.955348    
+artistJ-Kwon                                      0.367  0.713705    
+artistJ. Holiday                                  0.401  0.688475    
+artistJa Rule                                     0.690  0.490361    
+artistJack Ü                                      0.901  0.368125    
+artistJack White                                  0.109  0.913065    
+artistJagged Edge                                 0.055  0.956390    
+artistJamelia                                     0.424  0.671666    
+artistJames Blunt                                 0.544  0.586998    
+artistJames Morrison                              0.400  0.689557    
+artistJamie Foxx                                  0.218  0.827326    
+artistJanet Jackson                               0.120  0.904492    
+artistJason Derulo                                0.495  0.620628    
+artistJax Jones                                  -2.096  0.036592 *  
+artistJay Rock                                   -0.176  0.860244    
+artistJay Sean                                   -2.034  0.042445 *  
+artistJAY-Z                                       0.857  0.391813    
+artistJeezy                                       0.078  0.937883    
+artistJennifer Hudson                            -0.321  0.748379    
+artistJennifer Lopez                             -0.525  0.599741    
+artistJeremih                                     0.765  0.444378    
+artistJessica Simpson                             0.051  0.959648    
+artistJessie J                                    0.780  0.435711    
+artistJim Jones                                  -2.260  0.024208 *  
+artistJimmy Eat World                             1.369  0.171721    
+artistJoe                                        -0.169  0.865847    
+artistJoel Adams                                  0.725  0.468960    
+artistJohn Legend                                 0.437  0.662100    
+artistJohn Newman                                 0.959  0.337852    
+artistJoJo                                       -0.512  0.609105    
+artistJon Bellion                                 0.585  0.558542    
+artistJonas Blue                                 -1.661  0.097389 .  
+artistJonas Brothers                              0.512  0.609031    
+artistJordin Sparks                               0.101  0.919610    
+artistJuanes                                      0.302  0.762724    
+artistJuice WRLD                                 -0.194  0.846017    
+artistJunior Senior                               0.721  0.471225    
+artistJust Jack                                  -0.481  0.630901    
+artistJustin Bieber                              -0.334  0.738294    
+artistJustin Timberlake                           0.343  0.731962    
+artistJUVENILE                                    0.400  0.689060    
+artistK-Ci & JoJo                                -2.160  0.031261 *  
+artistK'NAAN                                     -0.293  0.769516    
+artistKaiser Chiefs                               0.322  0.747214    
+artistKALEO                                       0.126  0.899458    
+artistKandi                                      -0.217  0.828057    
+artistKanye West                                  0.560  0.575787    
+artistKardinal Offishall                          0.494  0.621208    
+artistKasabian                                    0.494  0.621485    
+artistKatie Melua                                -0.123  0.902296    
+artistKaty Perry                                 -0.074  0.940849    
+artistKeane                                       0.097  0.922465    
+artistKehlani                                     0.174  0.861613    
+artistKelis                                      -0.156  0.876318    
+artistKelly Clarkson                              0.585  0.558903    
+artistKelly Rowland                              -0.074  0.940941    
+artistKendrick Lamar                             -1.012  0.311775    
+artistKeri Hilson                                -0.476  0.633929    
+artistKesha                                      -1.149  0.251125    
+artistKevin Lyttle                                0.640  0.522675    
+artistKevin Rudolf                                0.406  0.685010    
+artistKeyshia Cole                                0.287  0.774326    
+artistKhalid                                      0.579  0.563150    
+artistKiesza                                     -0.152  0.878928    
+artistKiiara                                     -0.025  0.980102    
+artistKlangkarussell                              0.274  0.784083    
+artistKodak Black                                 0.015  0.987644    
+artistKungs                                      -2.992  0.002898 ** 
+artistKygo                                       -0.895  0.371121    
+artistKylie Minogue                              -0.075  0.940116    
+artistLa Roux                                    -0.065  0.948052    
+artistLady A                                      0.066  0.947718    
+artistLady Gaga                                   0.518  0.604620    
+artistLana Del Rey                                0.302  0.762930    
+artistLas Ketchup                                 0.213  0.831060    
+artistLauv                                        0.335  0.737426    
+artistLeAnn Rimes                                 0.368  0.713298    
+artistLenny Kravitz                               0.836  0.403690    
+artistLeona Lewis                                 0.748  0.454566    
+artistLewis Capaldi                               0.470  0.638448    
+artistLiam Payne                                 -0.678  0.498082    
+artistLil Dicky                                  -0.373  0.709599    
+artistLil Jon                                     0.151  0.880198    
+artistLil Jon & The East Side Boyz                0.232  0.816948    
+artistLil Nas X                                   0.085  0.932157    
+artistLil Peep                                    1.321  0.186912    
+artistLil Pump                                    0.632  0.527877    
+artistLil Tecca                                   0.495  0.620807    
+artistLil Wayne                                  -1.116  0.265079    
+artistLil' Flip                                  -0.866  0.387137    
+artistLil' Kim                                   -0.976  0.329695    
+artistLily Allen                                  0.311  0.755817    
+artistLimp Bizkit                                 1.424  0.154995    
+artistLinkin Park                                 1.282  0.200260    
+artistLittle Mix                                 -2.913  0.003733 ** 
+artistLL Cool J                                  -1.903  0.057596 .  
+artistLloyd                                       0.893  0.372065    
+artistLMC                                         0.176  0.860244    
+artistLMFAO                                       0.485  0.628059    
+artistLogic                                      -0.303  0.762132    
+artistLorde                                      -1.110  0.267530    
+artistLost Frequencies                           -1.385  0.166678    
+artistLucenzo                                    -2.572  0.010394 *  
+artistLudacris                                    0.166  0.868389    
+artistLuis Fonsi                                 -2.072  0.038747 *  
+artistLumidee                                     1.309  0.191160    
+artistLunay                                      -0.234  0.815245    
+artistLupe Fiasco                                 0.725  0.468864    
+artistM.I.A.                                     -2.170  0.030491 *  
+artistM.O                                        -1.258  0.208897    
+artistM.O.P.                                     -0.110  0.912491    
+artistM83                                         0.630  0.529167    
+artistMabel                                      -3.226  0.001334 ** 
+artistMacklemore                                  0.876  0.381205    
+artistMacklemore & Ryan Lewis                     0.989  0.323178    
+artistMadison Avenue                             -0.774  0.438989    
+artistMadonna                                     0.517  0.605172    
+artistMaggie Lindemann                            0.841  0.400958    
+artistMaluma                                     -0.294  0.769104    
+artistMann                                       -0.578  0.563235    
+artistMariah Carey                               -2.014  0.044544 *  
+artistMARINA                                     -0.105  0.916603    
+artistMario                                      -0.222  0.824176    
+artistMark Ronson                                -0.402  0.688156    
+artistMaroon 5                                   -0.619  0.535927    
+artistMarshmello                                  1.078  0.281744    
+artistMary J. Blige                               0.297  0.766587    
+artistMeck                                        0.903  0.367010    
+artistMEDUZA                                      0.021  0.983507    
+artistMeek Mill                                   0.273  0.784612    
+artistMegan Thee Stallion                        -0.125  0.900233    
+artistMeghan Trainor                              1.065  0.287318    
+artistMelanie C                                  -0.702  0.482838    
+artistMetro Station                               0.638  0.523923    
+artistMichel Teló                                -3.043  0.002462 ** 
+artistMichelle Branch                             0.191  0.848951    
+artistMigos                                       0.345  0.730091    
+artistMiguel                                      0.554  0.579896    
+artistMIKA                                        0.565  0.571990    
+artistMike Perry                                  0.523  0.601517    
+artistMike Posner                                 0.726  0.468203    
+artistMiley Cyrus                                -1.457  0.145743    
+artistMilky Chance                                0.164  0.870099    
+artistMis-Teeq                                   -0.471  0.637634    
+artistMissy Elliott                               0.501  0.616638    
+artistMK                                          0.836  0.403810    
+artistMKTO                                        0.807  0.419849    
+artistMNEK                                       -0.626  0.531791    
+artistMØ                                          0.065  0.947829    
+artistModjo                                       0.940  0.347807    
+artistMonica                                      0.137  0.891417    
+artistMontell Jordan                             -0.695  0.487530    
+artistMr. Probz                                  -2.866  0.004329 ** 
+artistMumford & Sons                              0.523  0.600874    
+artistMuse                                        1.005  0.315317    
+artistMustard                                     0.117  0.907196    
+artistMy Chemical Romance                         1.293  0.196677    
+artistN.E.R.D                                    -0.037  0.970447    
+artistN.O.R.E.                                   -0.454  0.649690    
+artistNatalie Imbruglia                          -0.370  0.711718    
+artistNatasha Bedingfield                        -2.495  0.012902 *  
+artistNatti Natasha                               0.884  0.377128    
+artistNe-Yo                                       0.435  0.663479    
+artistNelly                                       0.207  0.835847    
+artistNelly Furtado                              -0.168  0.866620    
+artistNext                                       -0.499  0.617930    
+artistNF                                          1.160  0.246527    
+artistNick Jonas                                 -1.723  0.085507 .  
+artistNick Lachey                                -0.754  0.451117    
+artistNickelback                                  0.521  0.602887    
+artistNicki Minaj                                 0.209  0.834771    
+artistNico & Vinz                                 0.230  0.818388    
+artistNina Sky                                    0.092  0.926762    
+artistNio Garcia                                 -0.389  0.697278    
+artistNo Doubt                                   -1.560  0.119357    
+artistNSG                                         0.323  0.746617    
+artistO.T. Genasis                               -0.236  0.813851    
+artistOasis                                      -2.433  0.015306 *  
+artistOf Monsters and Men                         0.673  0.501127    
+artistOffset                                      1.439  0.150650    
+artistOliver Heldens                              0.218  0.827653    
+artistOlly Murs                                  -0.045  0.964126    
+artistOmarion                                    -0.098  0.922129    
+artistOne Direction                               0.242  0.808594    
+artistOneRepublic                                 0.762  0.446224    
+artistOutkast                                     1.052  0.293457    
+artistOzuna                                      -0.335  0.737515    
+artistP!nk                                       -0.476  0.633974    
+artistPaloma Faith                                0.689  0.491100    
+artistPapa Roach                                  0.152  0.879010    
+artistParamore                                    0.866  0.387074    
+artistPARTYNEXTDOOR                               0.106  0.915582    
+artistPassenger                                   0.424  0.671462    
+artistPendulum                                    0.260  0.795100    
+artistPetey Pablo                                 0.247  0.804687    
+artistPharrell Williams                           0.779  0.436431    
+artistPhilip George                               0.353  0.724162    
+artistPia Mia                                     0.761  0.447247    
+artistPitbull                                     0.317  0.751524    
+artistPixie Lott                                 -0.454  0.650199    
+artistPlain White T's                             0.806  0.420699    
+artistPlan B                                     -0.305  0.760276    
+artistPlies                                       0.329  0.742630    
+artistPolo G                                      0.507  0.612542    
+artistPost Malone                                -0.355  0.723011    
+artistPretty Ricky                               -0.034  0.972640    
+artistProfessor Green                            -1.029  0.303821    
+artistPuddle Of Mudd                              0.543  0.587130    
+artistR. City                                     0.964  0.335249    
+artistRae Sremmurd                                0.848  0.396632    
+artistRag'n'Bone Man                              1.336  0.181967    
+artistRascal Flatts                              -1.087  0.277431    
+artistRay J                                      -0.016  0.987181    
+artistRazorlight                                  0.628  0.530114    
+artistRed Hot Chili Peppers                       0.894  0.371949    
+artistRich Boy                                    0.379  0.705137    
+artistRicky Martin                               -0.387  0.698634    
+artistRihanna                                     0.831  0.406592    
+artistRita Ora                                    0.163  0.870620    
+artistRixton                                      0.719  0.472659    
+artistRizzle Kicks                               -0.080  0.936283    
+artistRob $tone                                   0.707  0.480058    
+artistRob Thomas                                  0.042  0.966769    
+artistRobbie Williams                            -0.116  0.907813    
+artistRobin Schulz                                0.891  0.373379    
+artistRobyn                                      -1.104  0.269961    
+artistRoger Sanchez                              -0.129  0.897581    
+artistRonan Keating                              -0.104  0.917053    
+artistRoom 5                                      1.110  0.267455    
+artistRoute 94                                    1.240  0.215607    
+artistRudimental                                  0.072  0.942377    
+artistRuff Endz                                  -0.523  0.601119    
+artistRyan Cabrera                                0.030  0.975830    
+artistSam Feldt                                  -0.052  0.958694    
+artistSam Smith                                   0.920  0.358092    
+artistSam Sparro                                 -0.261  0.794344    
+artistSamantha Mumba                             -1.844  0.065759 .  
+artistSandi Thom                                  0.198  0.843356    
+artistSaving Abel                                 0.622  0.534498    
+artistSaweetie                                    0.436  0.663313    
+artistSAYGRACE                                    0.534  0.593452    
+artistScHoolboy Q                                -2.777  0.005683 ** 
+artistScissor Sisters                            -0.691  0.489838    
+artistSean Kingston                               0.285  0.775927    
+artistSean Paul                                   0.075  0.939864    
+artistSeether                                     1.007  0.314296    
+artistSelena Gomez                                0.419  0.675254    
+artistSeptember                                   0.684  0.494588    
+artistShaggy                                      0.639  0.522803    
+artistShakira                                     0.622  0.534349    
+artistShawn Mendes                               -1.259  0.208601    
+artistShayne Ward                                -2.345  0.019412 *  
+artistSheppard                                   -2.776  0.005693 ** 
+artistShinedown                                   0.167  0.867180    
+artistShontelle                                  -1.345  0.179322    
+artistShop Boyz                                   0.256  0.798150    
+artistSia                                         0.706  0.480774    
+artistSidney Samson                               0.867  0.386514    
+artistSigala                                     -0.548  0.584097    
+artistSigma                                       0.066  0.947531    
+artistSisqo                                      -0.012  0.990799    
+artistSkrillex                                    0.604  0.546174    
+artistSnoop Dogg                                 -0.402  0.688005    
+artistSnow Patrol                                -0.445  0.656767    
+artistSo Solid Crew                              -0.095  0.924717    
+artistSonique                                     0.223  0.823932    
+artistSophie Ellis-Bextor                        -0.362  0.717308    
+artistSoulja Boy                                  0.517  0.605244    
+artistSpiderbait                                  1.230  0.219190    
+artistStarley                                    -0.553  0.580488    
+artistSteps                                      -0.200  0.841422    
+artistStorm Queen                                -3.009  0.002744 ** 
+artistStromae                                    -1.456  0.146073    
+artistSugababes                                  -0.051  0.959528    
+artistSunshine Anderson                          -0.234  0.815235    
+artistSwedish House Mafia                         0.415  0.678512    
+artistT-Pain                                     -3.943 0.0000915 ***
+artistT.I.                                        0.619  0.536165    
+artistTaio Cruz                                   0.935  0.350115    
+artistTake That                                   0.581  0.561662    
+artistTamia                                      -0.575  0.565369    
+artistTaylor Swift                                0.806  0.420391    
+artistTerror Squad                                0.598  0.550262    
+artistThe Band Perry                              0.089  0.928960    
+artistThe Chainsmokers                            1.219  0.223376    
+artistThe Fray                                    0.641  0.521853    
+artistThe Game                                    1.145  0.252704    
+artistThe Kooks                                   0.771  0.440769    
+artistThe Neighbourhood                           1.417  0.157150    
+artistThe Offspring                               0.974  0.330318    
+artistThe Pussycat Dolls                          0.170  0.865190    
+artistThe Raconteurs                              0.348  0.727877    
+artistThe Rasmus                                  0.567  0.570635    
+artistThe Red Jumpsuit Apparatus                  0.871  0.384068    
+artistThe Saturdays                               0.119  0.904950    
+artistThe Script                                  0.747  0.455283    
+artistThe Streets                                 0.222  0.824287    
+artistThe Strumbellas                             0.533  0.594383    
+artistThe Supermen Lovers                         0.047  0.962558    
+artistThe Vamps                                   0.722  0.470503    
+artistThe Wanted                                 -0.966  0.334491    
+artistThe Weeknd                                  0.874  0.382312    
+artistThe xx                                      0.178  0.859113    
+artistThe-Dream                                  -0.096  0.923173    
+artistTiësto                                     -1.853  0.064475 .  
+artistTimbaland                                   0.375  0.707651    
+artistTinchy Stryder                             -0.384  0.701240    
+artistTinie Tempah                               -0.079  0.936799    
+artistTom Jones                                  -0.309  0.757660    
+artistTom Odell                                   1.506  0.132611    
+artistTom Walker                                  0.931  0.352044    
+artistTones And I                                -0.024  0.981190    
+artistToni Braxton                                0.157  0.874916    
+artistTory Lanez                                 -1.277  0.202100    
+artistTove Lo                                    -2.362  0.018544 *  
+artistTrain                                       0.919  0.358571    
+artistTrapt                                       0.614  0.539781    
+artistTravis                                      0.917  0.359700    
+artistTravis Scott                               -0.199  0.842457    
+artistTrey Songz                                 -1.274  0.203170    
+artistTrillville                                 -0.407  0.684441    
+artistTruth Hurts                                -0.283  0.777372    
+artistTweet                                      -0.004  0.997123    
+artistTwenty One Pilots                           1.444  0.149295    
+artistTwista                                      0.579  0.562796    
+artistTyga                                       -0.329  0.742178    
+artistTyrese                                     -0.607  0.544289    
+artistUsher                                       0.539  0.590221    
+artistVance Joy                                   0.806  0.420430    
+artistVanessa Carlton                             0.507  0.612204    
+artistWaka Flocka Flame                          -0.319  0.749954    
+artistWestlife                                   -2.110  0.035323 *  
+artistWheatus                                     0.438  0.661806    
+artistWiley                                      -0.185  0.853493    
+artistWill Smith                                 -0.443  0.658195    
+artistWill Young                                 -0.185  0.853181    
+artistwill.i.am                                   0.161  0.872351    
+artistWiz Khalifa                                 0.990  0.322840    
+artistWyclef Jean                                -0.257  0.797304    
+artistXXXTENTACION                                0.801  0.423614    
+artistYears & Years                              -2.524  0.011896 *  
+artistYing Yang Twins                             0.138  0.889962    
+artistYlvis                                       0.244  0.807656    
+artistYolanda Be Cool                            -2.508  0.012457 *  
+artistYoung T & Bugsey                           -0.368  0.712763    
+artistYoungbloodz                                -0.302  0.762499    
+artistYung Joc                                    0.173  0.862745    
+artistZara Larsson                               -0.373  0.709176    
+artistZay Hilfigerrr                             -0.104  0.916868    
+artistZAYN                                        0.164  0.869476    
+artistZedd                                       -1.094  0.274480    
+duration_ms                                       0.870  0.384853    
+explicitTrue                                     -1.382  0.167494    
+year1999                                          1.038  0.299824    
+year2000                                          0.603  0.546468    
+year2001                                          0.626  0.531498    
+year2002                                          0.943  0.345928    
+year2003                                          0.638  0.523583    
+year2004                                          0.737  0.461543    
+year2005                                          0.830  0.406971    
+year2006                                          0.579  0.562675    
+year2007                                          0.578  0.563694    
+year2008                                          0.891  0.373320    
+year2009                                          0.869  0.385084    
+year2010                                          0.861  0.389782    
+year2011                                          0.792  0.428598    
+year2012                                          0.970  0.332432    
+year2013                                          0.666  0.505738    
+year2014                                          0.909  0.363724    
+year2015                                          0.552  0.580914    
+year2016                                          0.743  0.457538    
+year2017                                          0.441  0.659157    
+year2018                                          1.622  0.105442    
+year2019                                          1.302  0.193398    
+year2020                                             NA        NA    
+danceability                                      1.494  0.135878    
+energy                                           -0.845  0.398281    
+keyC#                                             0.137  0.890955    
+keyD                                             -1.403  0.161096    
+keyD#                                             0.430  0.667250    
+keyE                                             -0.769  0.442515    
+keyF                                             -0.810  0.418557    
+keyF#                                            -0.067  0.946844    
+keyG                                             -0.437  0.662268    
+keyG#                                             0.314  0.753475    
+keyA                                             -1.625  0.104714    
+keyA#                                             0.197  0.843710    
+keyB                                             -0.045  0.964375    
+loudness                                          0.185  0.853610    
+modeMajor                                        -1.765  0.078215 .  
+speechiness                                      -1.007  0.314546    
+acousticness                                      0.150  0.881139    
+instrumentalness                                 -1.369  0.171442    
+liveness                                          1.645  0.100617    
+valence                                          -0.038  0.969692    
+tempo                                            -0.131  0.895866    
+is_jazzTrue                                          NA        NA    
+is_countryTrue                                       NA        NA    
+is_rockTrue                                          NA        NA    
+is_popTrue                                           NA        NA    
+is_hip_hopTrue                                       NA        NA    
+is_folk_acousticTrue                                 NA        NA    
+is_r.bTrue                                           NA        NA    
+is_latinTrue                                         NA        NA    
+is_dance_electronicTrue                              NA        NA    
+is_easy_listeningTrue                                NA        NA    
+is_metalTrue                                         NA        NA    
+is_classicalTrue                                     NA        NA    
+is_bluesTrue                                         NA        NA    
+is_world_traditionalTrue                             NA        NA    
+has_featureTrue                                   0.422  0.673285    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 18.16 on 525 degrees of freedom
+Multiple R-squared:  0.6631,	Adjusted R-squared:  0.2537 
+F-statistic:  1.62 on 638 and 525 DF,  p-value: 0.000000005662
+

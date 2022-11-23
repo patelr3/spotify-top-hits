@@ -33,7 +33,7 @@ str(songs.df)
 
 # Drop the genre, songs, and artists columns
 songs.df <- songs.df[, -which(names(songs.df) == 'genre')]
-songs.df <- songs.df[, -which(names(songs.df) == 'artist')]
+# songs.df <- songs.df[, -which(names(songs.df) == 'artist')]
 songs.df <- songs.df[, -which(names(songs.df) == 'song')]
 
 
@@ -51,7 +51,7 @@ valid.df <- songs.df[-train.index, ]
 str(train.df)
 
 # Now let's store output to file
-sink(file = "data_modeling/linear_reg_output.txt")
+sink(file = "data_modeling/linear_reg_output_artist.txt")
 
 songs.lm <- lm(popularity ~ ., data = train.df)
 
@@ -59,9 +59,9 @@ cat('Showing linear regression model summary:\n')
 options(scipen = 999)
 summary(songs.lm)
 
-songs.lm.pred <- predict(songs.lm, valid.df)
+# songs.lm.pred <- predict(songs.lm, valid.df)
 
-cat('Time to test accuracy on the validation set\n')
-accuracy(songs.lm.pred, valid.df$popularity)
+# cat('Time to test accuracy on the validation set\n')
+# accuracy(songs.lm.pred, valid.df$popularity)
 
 sink()
